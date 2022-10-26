@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <header>
+        <h2>Formulario en HTML5</h2>
+    </header>
+    <main>
+        <section>
+            <h2>Ejercicio 2</h2>
+            <form>
+               <fieldset>
+                <legend>Completar</legend>
+                
+                <label for="">Elija un color</label>
+                <input type="color" name="color" id="color" value="#000000" />
+                <br/>
+                <textarea cols="60" rows="5" name="Direccion"
+                placeholder="Por favor, escrina aqui"></textarea>
+                <br />
+                <select name="JAVA" >                        
+                <option value="JAVA" >JAVA</option>              
+                </select>
+                <br/>
+                <label><input type="radio" name="ASIR">ASIR</label>              
+                <label><input type="radio" name="DAM">DAM</label>               
+                <label><input type="radio" name="DAW">DAW</label>
+               </fieldset>
+               <br/>
+               <fieldset>
+                <legend>Rellene las opciones siguientes</legend>
+                <label for="">Elija una fecha:</label>
+                <input type="date" name="fecha" />
+                <br/>
+                <label for="adjunto">seleccione un archivo</label>
+                    <input 
+                    type="file" 
+                    name="adjunto"
+                    id="adjunto" 
+                    accept=".pdf,.jpg,.png" 
+                    multiple 
+                    />
+                <br/>
+                <select name="" multiple>   
+                    <optgroup label="">
+                        <option value="" label="">SMIR </option>
+                        <option value="" label="">ASIR </option>
+                        <option value="" label="">DAM </option>
+                        <option value="" label="">DAW </option>
+                    </optgroup>    
+                </select>
+               </fieldset>
+    <!-- pie de pagina -->
+    <footer>
+        <h3>
+            &copy; copirigth: Alexander Hernandez
+        </h3>
+    </footer>
+    <a href="../">vuelve a inicio</a>
+</body>
+</html>

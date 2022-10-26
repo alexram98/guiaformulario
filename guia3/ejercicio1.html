@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <header>
+        <h2>Formulario en HTML5</h2>
+    </header>
+    <main>
+        <section>
+            <h2>Ejercicio 1</h2>
+            <form>
+               <fieldset>
+                <legend>Indique sus preferencias profavor</legend>
+                <label for="">Elija una fecha:</label>
+                <input type="date" name="fecha" />
+                <br/>         
+                <label for="adjunto">seleccione un archivo</label>
+                    <input 
+                    type="file" 
+                    name="adjunto"
+                    id="adjunto" 
+                    accept=".pdf,.jpg,.png" 
+                    multiple 
+                    />
+                <br/>
+                <label><input type="radio" name="AMD">AMD</label>
+                
+                <label><input type="radio" name="Intel i5">Intel i5</label>
+                
+                <label><input type="radio" name="Intel i7">Intel i7</label>
+                
+               </fieldset>
+                <br/>
+                <fieldset>
+                    <legend>Indique sus preferencias porfavor</legend>
+                    <label>Matematicas</label>
+                    <input type="radio" name="Matematicas">
+                    <label>Historia</label>
+                    <input type="radio" name="Historia">
+                    <label>Geografia</label>
+                    <input type="radio" name="Geografia">
+                    <label>Lengua</label>
+                    <input type="radio" name="Lengua">
+                    <br/>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name">
+                    <br />
+                    <label for="name">Apellido</label>
+                    <input type="text" name="surname" id="surname">
+                    <br />
+                    <label for="name">Direccion</label>
+                    <input type="text" name="address" id="address">
+                    <br/>
+                    <label for="">Elija un color</label>
+                    <input type="color" name="color" id="color" value="#000000" />
+                    <br/>
+                    <textarea cols="40" rows="8" name="Direccion"
+                    placeholder="Utilice este cuadro para escribir"></textarea>
+                    <br />
+                    <label for="">Elija una fecha:</label>
+                    <input type="date" name="fecha" />
+                    <br />
+                    <select name="Ingles" >                        
+                        <option value="Ingles" >Ingles</option>
+                    </select>
+                    <br/>
+                    <label for="">Elija una hora:</label>
+                <input type="time" name="hora" />
+                <br/>
+                <label for="adjunto">seleccione un archivo</label>
+                    <input 
+                    type="file" 
+                    name="adjunto"
+                    id="adjunto" 
+                    accept=".pdf,.jpg,.png" 
+                    multiple 
+                    />
+                <br/>
+                <label> <input type="radio" name="Mujer" />Mujer</label>              
+                <label><input type="radio" name="Hombre"/>Hombre</label>
+                
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!-- pie de pagina -->
+    <footer>
+        <h3>
+            &copy; copirigth: Alexander Hernandez
+        </h3>
+    </footer>
+    <a href="../">vuelve a inicio</a>
+</body>
+</html>
